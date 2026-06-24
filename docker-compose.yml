@@ -1,0 +1,7 @@
+services:
+  playwright:
+    image: playwright-framework
+    container_name: playwright-tests
+
+    volumes:
+      - F:/DockerReports:/app/playwright-report
